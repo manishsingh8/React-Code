@@ -3,16 +3,14 @@ import { createRoot } from 'react-dom/client';
 
 
 // import ExpressionComponent from './Components/ExpressionComponent';
-// import App from './App';
-import Test from './Test';
+ import App from './App';
+// import Test from './Test';
 
 
 createRoot(document.getElementById('root')).render(
                        
-                        // <BrowserRouter >
-                        //     <Home />
-                        // </BrowserRouter>
-                        <Test />
+                        <App />
+                        // <Test />
 );
 
 
